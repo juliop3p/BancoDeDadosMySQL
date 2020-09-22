@@ -1,8 +1,7 @@
-#
-CREATE DATABASE db_deletar;
+CREATE DATABASE IF NOT EXISTS db_deletar;
 USE db_deletar;
 
-CREATE TABLE consumidores (
+CREATE TABLE IF NOT EXISTS consumidores (
     id INT PRIMARY KEY AUTO_INCREMENT,
     nome VARCHAR(30)
 );
@@ -12,3 +11,7 @@ INSERT INTO consumidores (nome) VALUES
 	("Julia");
     
 SELECT * FROM consumidores;
+
+DELETE FROM consumidores WHERE id = 1;
+
+SELECT * FROM comsumidores;
