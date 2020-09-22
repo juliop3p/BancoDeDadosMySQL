@@ -14,4 +14,4 @@ SELECT * FROM consumidores;
 
 DELETE FROM consumidores WHERE id = 1;
 
-SELECT * FROM comsumidores;
+SELECT * FROM consumidores;
